@@ -1,0 +1,60 @@
+/*author information
+		Name: abir mahmud
+		email: abir.mahmud1st@gmail.com 
+*/
+
+ /* fonts */
+ /* font-family: 'Roboto', sans-serif; */
+body{margin: 0px;padding: 0px;} 
+.zed_date{background: url('../images/Promo_2.png');background-repeat: no-repeat;background-size: 1470px 1050px; position: fixed; background-position: center -50px;height: 100%;width: 100%;}  
+.middle_contant{height: 100vh;width: 70%;background-color:  black;opacity: .6;position: absolute;left: 50%;top: 40%;transform: translate(-50%, -40%);border-radius: 5px 5px 0px 0px;}
+.logo{height: 90px;width: 100px;float: right;}
+.jumbotron{background-color: red;height: 105px;width: 100%;margin: 0px;padding: 10px ;border-radius: 1px;}
+.z{color: white;font-size: 3.75em;margin-top: 30px;text-transform: uppercase;font-family: 'Roboto', sans-serif;}
+.d{font-size: 3.8em;color: white;text-transform: uppercase;font-family: 'Roboto', sans-serif;}
+.small_font{font-size: 3.125em;color: black;font-family: 'Roboto', sans-serif;}
+h1{color: white;text-align: center;margin-top: 20%;font-family: 'Roboto';font-weight: 100;}
+h2{color: white;text-transform: capitalize;text-align: center;font-family: 'Roboto';font-weight: 300;color: coral;}
+.button{margin-top: 40px;margin-bottom: 30px;margin-left: 32%;background-color: black;display: inline-block;}
+.apple{border: 2px solid white;margin: 0px;} 
+.apple:hover{border: 2px solid green;opacity: .5;}
+.google_play{border: 2px solid white;margin: 0px;}
+.google_play:hover{border: 2px solid green;}
+.a{color: white;text-align: center;}
+.arrow{	margin-top: 0px;margin-bottom: 0px;}
+
+
+/* media query */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.zed_date{background-size: 600px 950px;}  
+.middle_contant{width: 100%;}
+.button {margin-left: 28%;}
+.jumbotron{height: 80px;width: 100%;margin: 0px;padding: 10px ;}
+.logo{height: 50px;width: 60px;}
+.z{font-size: 2.75em;}
+.d{font-size: 2.75em;}
+.small_font{font-size: 2.25em;}
+h1{font-size: 30px;}
+
+}
+/* tab veiw */
+@media only screen and (min-device-width : 481px) and (max-device-width : 768px) {    
+.zed_date{background-size: 800px 1080px;}  
+.middle_contant{width: 100%;}
+.button {margin-left: 28%;}
+.jumbotron{height: 100px;width: 100%;margin: 0px;padding: 10px ;}
+.logo{height: 80px;width: 90px;}
+.z{font-size: 3.75em;}
+.d{font-size: 3.75em;}
+.small_font{font-size: 3.15em;}
+h1{font-size: 60px;}
+h2{font-size: 40px;}
+
+}
+
+
+
+ 
+ 
+
